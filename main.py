@@ -3,7 +3,7 @@ from nfa_to_dfa import nfa_to_dfa
 from dfa_minimizer import minimize_dfa
 from visualizer import visualize_dfa
 
-st.set_page_config(page_title="Automata Converter & Minimizer", page_icon="🤖")
+st.set_page_config(page_title="Automata Converter & Minimizer")
 
 st.title("Automata Converter and Minimizer")
 st.caption("Enter your NFA or DFA transition table below to visualize and minimize automata.")
